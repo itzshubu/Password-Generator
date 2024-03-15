@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container flex">
+        <div class="head flex2">
+          <input id="first-input" type="text" placeholder="Pasword will show hare">
+          <button onclick="MyFunction2()" id="copy">copy</button>
+        </div>
+
+         <div class="container-body flex2">
+             <label for=""> Length of the Pasword</label>
+             <input id="length" class="input" type="number" value="10" min="8" max="15">
+         </div>
+
+         <div class="container-body flex2">
+             <label for="upper">Contain upper case latter</label>
+             <input class="input" id="upper" type="checkbox">
+         </div>
+
+          <div class="container-body flex2">
+            <label for="lower">Contain lower case latter</label>
+            <input class="input" id="lower" type="checkbox">
+         </div> 
+        
+         <div class="container-body flex2">
+            <label for="number">Contain number</label>
+            <input class="input" id="number" type="checkbox">
+         </div>
+
+          <div class="container-body flex2">
+            <label for="symbols">Contain symbols</label>
+            <input class="input" id="symbols" type="checkbox">
+         </div> 
+          <button onclick="MyFunction()" class="flex2" id="Genrate">Genrate Password</button>
+    </div>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>

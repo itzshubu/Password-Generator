@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.flex2{
+    position: relative;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+  /* border: 1px solid black; */
+}
+.container{
+    background-color: lightgray;
+    height: auto;
+    width: 300px;
+    border: 2px solid black;
+    margin:10% auto;
+    /* padding: 20px; */
+}
+#Genrate{
+    width: 100px;
+    height: auto;
+    margin: 10px auto;
+   padding: 7px;
+   cursor: pointer;
+}
+#copy{
+    margin: 5px; 
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+.input{
+    position: absolute;
+    right: 0px; 
+}
+#first-input{
+    
+    font-size:medium;
+    padding: 10px;
+    width: 220px;
+}
